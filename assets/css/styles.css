@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Cera pro,Trebuchet MS,sans-serif;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+
+}
+.containerFull{
+	width: 100%;
+}
+.container80{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+.container35{
+	width: 35%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 10px;
+}
+.container60{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 50px;
+}
+.container40{
+	width: 40%;
+}
+#linkA{
+	background-color: #222831;
+	color: white;
+	border-radius: 20px;
+	padding: 10px 25px 10px 25px;
+}
+#linkB{
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 10px 25px 10px 25px;
+}
+#linkC{
+	border-bottom: 1px solid white;
+}
+#linkA:hover, #linkB:hover, #linkC:hover{
+	color: black;
+	background-color: aqua;
+}
+.containerFull h1{
+	font-size: 25pt;
+}
+.containerFull p{
+	font-size: 12pt;
+	color: #222831;
+}
+.containerFull_colored{
+	padding-bottom: 35px;
+	padding-top: 35px;
+	background-color: #222831;
+	width: 100%;
+	color: white;
+}
+.programmes{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+#pr_day{
+	margin: 0 auto;
+	width: 50%;
+	border: 1px solid whitesmoke;
+	border-radius: 50px 0px 50px 0px;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 900px){
+	.containerFull{
+		width: 98%;
+		margin: 0 auto;
+	}
+	.container80{
+		width: 98%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.container35{
+		width: 98%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		padding: 2px;
+	}
+	.container60{
+		width: 98%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		padding: 15px;
+	}
+	.container40{
+		width: 98%;
+		margin: 0 auto;
+	}
+	#linkA{
+		background-color: #222831;
+		color: white;
+		border-radius: 20px;
+		padding: 10px 25px 10px 25px;
+	}
+	#linkB{
+		border: 1px solid black;
+		border-radius: 20px;
+		padding: 10px 25px 10px 25px;
+	}
+	#linkC{
+		border-bottom: 1px solid white;
+	}
+	#linkA:hover, #linkB:hover, #linkC:hover{
+		color: black;
+		background-color: aqua;
+	}
+	.containerFull h1{
+		font-size: 25pt;
+	}
+	.containerFull p{
+		font-size: 12pt;
+		color: #222831;
+	}
+	.containerFull_colored{
+		padding-bottom: 35px;
+		padding-top: 35px;
+		background-color: #222831;
+		width: 98%;
+		color: white;
+		margin: 0 auto;
+	}
+	.programmes{
+		width: 98%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#pr_day{
+		margin: 0 auto;
+		width: 85%;
+		border: 1px solid whitesmoke;
+		border-radius: 50px 0px 50px 0px;
+		padding: 10px;
+	}
+}
+
